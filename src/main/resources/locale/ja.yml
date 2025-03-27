@@ -10,28 +10,28 @@ messages:
       invalid-args: "コマンドの使用法が無効です。使用法: /voice disconnect"
 
     settings:
-      nametag: "VoiceCraft Server Settings"
-      lore: "Open VoiceCraft Settings"
-      message: "You have been given an item in your inventory. Right Click/Interact with the item to open the settings UI"
+      nametag: "VoiceCraft サーバー設定"
+      lore: "VoiceCraft 設定を開く"
+      message: "インベントリにアイテムが与えられました。アイテムを右クリック/操作して設定 UI を開きます"
 
     bind:
-      binding: "Binding..."
-      binded: "Binding Successful!"
-      failed: "Binding Failed! Check your key and try again!"
-      broadcast: "$player has connected to VoiceCraft!"
-      binding-fake: "Binding fake player..."
-      invalid-args: "Invalid command usage. Usage: /voice bind <key>"
-      fake-invalid-args: "Invalid command usage. Usage: /voice bindfake <key> <name>"
+      binding: "バインディング..."
+      binded: "バインディングに成功しました！"
+      failed: "バインディングに失敗しました! キーを確認してもう一度お試しください！"
+      broadcast: "$player が VoiceCraft に接続しまし！"
+      binding-fake: "偽のプレイヤーをバインディングしています..."
+      invalid-args: "コマンドの使用法が無効です。使用法: /voice bind <key>"
+      fake-invalid-args: "コマンドの使用法が無効です。使用法: /voice bindfake <key> <name>"
 
     updatefake:
-      updating: "Updating fake player..."
-      updated: "Update Successful!"
-      failed: "Update Failed!"
-      invalid-args: "Invalid command usage. Usage: /voice bindfake <key> <name>"
+      updating: "偽のプレイヤーを更新しています..."
+      updated: "更新に成功しました！"
+      failed: "更新に失敗しました！"
+      invalid-args: "コマンドの使用法が無効です。使用法: /voice bindfake <key> <name>"
 
-    clearautobind: "Successfully cleared autobind!"
+    clearautobind: "自動バインドを正常にクリアしました！"
 
-    reload: "Plugin reloaded!"
+    reload: "プラグインがリロードされました!"
 
   cmd-invalid-args: "Invalid command usage. Usage: /voice <connect | reconnect | disconnect | settings | bind | bindfake | updatefake | clearautobind | reload>"  # Error message for invalid command usage.
 
